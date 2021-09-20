@@ -25,6 +25,10 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 .banner-china-inner {
     background-image: url("1200px-Hammer_and_sickle.svg.png");
@@ -50,8 +54,8 @@
 .banner-text {
     font: small-caps bold 24px/1 sans-serif;
     color: black;
-    line-height: 300px;
     font-size: 90px;
+    border: black 1px solid;
 }
 .scale {
     transition: 1s;
