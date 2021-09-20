@@ -5,6 +5,7 @@
     background-image: url("18524.jpg");
     position: absolute;
     background-size: 100%;
+    opacity: 90%;
 }
 .banner-china, .banner-gla, .banner-usa {
     width: 300px;
