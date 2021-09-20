@@ -1,0 +1,72 @@
+.background-main {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("18524.jpg");
+    position: absolute;
+    background-size: 100%;
+}
+.banner-china, .banner-gla, .banner-usa {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+}
+.banner-china {
+    border: rgb(204,0,0) 1px solid;
+    top: 60%;
+    left: 81%;
+    background-color: rgb(204,0,0);
+}
+.banner-china-inner {
+    width: 100%;
+    height: 100%;
+    background-image: url("1200px-Hammer_and_sickle.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-usa {
+    border: rgb(0,51,153) 1px solid;
+    top: 60%;
+    left: 41%;
+    background-color: rgb(0,51,153);
+}
+.banner-usa-inner {
+    width: 100%;
+    height: 100%;
+    background-image: url("EU_flag_square.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-gla {
+    border: rgb(38,77,22) 1px solid;
+    top: 60%;
+    left: 4%;
+    background-color: rgb(38,77,22);
+}
+.banner-gla-inner {
+    width: 100%;
+    height: 100%;
+    background-image: url("sfi1ol3zv1u41.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-text {
+    font: small-caps bold 24px/1 sans-serif;
+    color: black;
+    line-height: 300px;
+    font-size: 90px;
+}
+.scale {
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.4);
+}
+a {
+    text-decoration: none;
+    text-shadow: 0px 0px 60px white;
+}
